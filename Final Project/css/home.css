@@ -1,0 +1,243 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+/*.outer-con {
+    height: 950px;
+    width: fixed;
+    background-color: lightgray;
+}*/
+.inner-con {
+    height: 1155px;
+    width: 1500px;
+    background-color: black;
+   
+    box-shadow: 0 -9px 0px 0px black, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+}
+
+/* HEADER */
+.header{
+    height: 100px;
+    width: 1500px;
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 132px;
+    /*background: url(../img/LOGO.jpg) center no-repeat;*/
+    margin-left: 100px;
+    float: left;
+}
+/*.logo:hover {
+    height: 100px;
+    width: 132px;
+    background: url(../img/logohover.jpg) center no-repeat;
+    margin-left: 100px
+}*/
+
+
+.home a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.home a:hover {
+    cursor: pointer;
+    color: #cc0058;
+}
+.destination a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 700px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.destination a:hover{
+    cursor: pointer;
+    color: #cc0058;
+}
+.purchase a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 1150px;
+    margin-top: -65px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+     color: black;
+    float: left;
+}
+.purchase a:hover{
+    cursor: pointer;
+    color: #cc0058;
+}
+
+
+
+/* HEADER END */
+
+/* WELCOME */
+.welcome-box {
+    height: 300px;
+    background-color: black;
+}
+.overlay {
+    height: 300px;
+    background-color: lightgray;
+    opacity: .9;
+}
+.text {
+    height: 100px;
+    width: 1000px;
+    background-color: lightgray;
+    margin-top: -200px;
+    margin-left: 50px;
+    color: white;
+
+}
+
+
+/*WELCOME END*/
+
+/* BODY */
+.body {
+    height: 705px;
+    width: 1500px;
+    
+    overflow: auto;
+    background: url(../img/map_naked.png) center no-repeat;
+    background-color: lightsteelblue;
+}
+.destinations-map{
+    height: 65px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 90px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+.destinations-map:hover{
+    cursor: pointer;
+   background-color: lightgray;
+}
+.add-info{
+    height: 65px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+    overflow: hidden;
+    padding: 10px;
+}
+.add-info:hover{
+    cursor: pointer;
+    background-color: lightgray;
+}
+.faq{
+    height: 65px;
+    width: 1000px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 250px;
+    border-radius: 5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 20px;
+   overflow: hidden;
+    padding: 10px;
+}
+.faq:hover{
+    cursor: pointer;
+   background-color: lightgray;
+}
+
+
+
+
+
+
+/* BODY END */
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    background-color: white;
+    
+}
+.social-one img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1350;
+    margin-top: 10px; 
+    float: left;
+}
+.social-one img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1350;
+    margin-top: 10px; 
+    cursor: pointer;
+}
+.social-two img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1400;
+    margin-top: -15px;
+    float: left;
+   
+}
+.social-two img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1400;
+    margin-top: -15px;
+    cursor: pointer;
+   
+}
+.social-three img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1450;
+    margin-top: -20px;
+    float: left;
+    
+}
+.social-three img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1450;
+    margin-top: -20px;
+     cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+/* FOOTER END */

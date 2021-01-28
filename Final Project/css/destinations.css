@@ -1,0 +1,340 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.inner-con {
+     height: 1155px;
+    width: 1500px;
+    background-color: black;
+    box-shadow: 0 -9px 0px 0px black, 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 15px -4px rgba(31, 73, 125, 0.8);
+}
+
+/* HEADER */
+.header{
+    height: 100px;
+    width: 1500px;
+    background-color: white;
+}
+.logo{
+    height: 100px;
+    width: 132px;
+    /*background: url(../img/LOGO.jpg) center no-repeat;*/
+    margin-left: 100px;
+    float: left;
+}
+.home a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 500px;
+    margin-top: 35px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.home a:hover {
+    cursor: pointer;
+    color: #cc0058;
+}
+.destination a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 700px;
+    margin-top: -50px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    float: left;
+}
+.destination a:hover{
+    cursor: pointer;
+    color: #cc0058;
+}
+.purchase a{
+    height: 50px;
+    width: 250px;
+    background-color: white;
+    margin-left: 1150px;
+    margin-top: -65px;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+     color: black;
+    float: left;
+}
+.purchase a:hover{
+    cursor: pointer;
+    color: #cc0058;
+}
+/* HEADER END */
+
+/* BODY */
+.body {
+    height: 1005px;
+    width: 1500px;
+    background-color: #b0c4de;
+    overflow: auto;
+}
+.heading {
+    height: 100px;
+    width: 1000px;
+    margin-top: 10px;
+    margin-left: 250px;
+    background-color: ;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.filter {
+    height: 50px;
+    width: 1400px;
+    margin-top: 10px;
+    margin-left: 50px;
+    background-color: ;
+    overflow: auto;
+}
+#filter-butt{
+    margin-left: 20px;
+}
+#filter-butt:hover{
+    cursor: pointer;
+    background-color: #cc0058;
+}
+.text {
+    height: 50px;
+    width: 250px;
+    margin-left: 430px;
+    margin-top: 0px;
+    font-size: 20px;
+    float: left;
+}
+#dropdown {
+    height: 30px;
+    width: 250px;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-size: 20px;
+    float: left;
+}
+#dropdown:hover {
+   cursor: pointer;
+}
+.destination-opt{
+    height: 800px;
+    width:1500px;
+    background-color: #b0c4de;
+    background: url(../img/sunset_boat.jpg) center no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.opt-one {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-two {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-three {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-four {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-five {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-six {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-seven {
+    height: 50px;
+    width: 1155px;
+    margin-left: 150px;
+    margin-top: 50px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: ;
+}
+.opt-one:hover {
+  cursor: pointer;
+}
+.opt-two:hover {
+  cursor: pointer;
+}
+.opt-three:hover {
+  cursor: pointer;
+}
+.opt-four:hover {
+  cursor: pointer;
+}
+.opt-five:hover {
+  cursor: pointer;
+}
+.opt-six:hover {
+  cursor: pointer;
+}
+.opt-seven:hover {
+  cursor: pointer;
+}
+.highlight-one {
+    background: url(../img/mauritius.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-two {
+    background: url(../img/capet.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-three {
+    background: url(../img/cisland.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-four {
+    background: url(../img/greenland.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-five {
+    background: url(../img/hawai.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-six {
+    background: url(../img/fjords.gif) center no-repeat;
+    background-size: cover;
+}
+.highlight-seven {
+    background: url(../img/milsound.gif) center repeat;
+    background-size: cover;
+}
+/*OPTIONS*/
+.name {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(211,211,211,.6);
+    border-radius: 20px 0px 0px 20px;
+    margin-top: 49px;
+    border: 1px solid black;
+    text-align: center;
+}
+.code {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(211,211,211,.6);
+    border-radius: 0px 0px 0px 0px;
+    margin-top: -52px;
+    margin-left: 352px;
+    border: 1px solid black;
+    text-align: center;
+}
+.price {
+    height: 50px;
+    width: 350px;
+    background-color: rgba(211,211,211,.6);
+    border-radius: 0px 0px 0px 0px;
+    margin-top: -52px;
+    margin-left: 704px;
+    border: 1px solid black;
+    text-align: center;
+}
+.purchase_but {
+   height: 52px;
+    width: 100px;
+    background-color: rgba(211,211,211,.6);
+    border-radius: 0px 20px 20px 0px;
+    margin-top: 50px;
+    margin-top: -52px;
+    margin-left: 1056px;
+    text-align: center;
+    border: 1px solid black;
+    opacity: .0;
+}
+.purchase_but:hover {
+    cursor: pointer;
+    background-color: #cc0058;
+}
+/* BODY END */
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    background-color: white;
+    
+}
+.social-one img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1350;
+    margin-top: 10px; 
+    float: left;
+}
+.social-one img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1350;
+    margin-top: 10px; 
+    cursor: pointer;
+}
+.social-two img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1400;
+    margin-top: -15px;
+    float: left;
+   
+}
+.social-two img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1400;
+    margin-top: -15px;
+    cursor: pointer;
+   
+}
+.social-three img{
+    height: 20px;
+    width: 30px;
+    margin-left: 1450;
+    margin-top: -20px;
+    float: left;
+    
+}
+.social-three img:hover{
+    height: 40px;
+    width: 50px;
+    margin-left: 1450;
+    margin-top: -20px;
+     cursor: pointer;
+    
+}
+/* FOOTER END */
